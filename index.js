@@ -57,7 +57,7 @@ if (Platform.OS === "ios" && !Platform.isPad && !Platform.isTVOS) {
     isIPhoneWithMonobrow_v = true;
     isIPhone14_v = true;
     statusBarHeight = STATUSBAR_IP14_HEIGHT;
-  } else if (W_WIDTH === IP12MAX_WIDTH && W_HEIGHT === IP12MAX_HEIGHT) {
+  } else if (W_WIDTH === IP14MAX_WIDTH && W_HEIGHT === IP14MAX_HEIGHT) {
     isIPhoneWithMonobrow_v = true;
     isIPhone14Max_v = true;
     statusBarHeight = STATUSBAR_IP14MAX_HEIGHT;
